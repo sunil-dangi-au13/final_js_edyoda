@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NewMall</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font-Awesome CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+   
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+  
+    
+    <div id="top-bar">
+      
+      
+      <div class="logo">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" width="130px"></a>
+      </div>
+     
+      
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="index.html#clothing">Clothings</a></li>
+        <li><a href="index.html#accessories">Accessories</a></li>
+      </ul>
+     
+      
+      <div class="icons">
+        <i class="fa fa-search"></i>
+        <div class="cart" id="cartIcon">
+          <a href="./checkout.html">
+            <i class="fa fa-shopping-cart">
+              
+            </i>
+          </a>
+        </div>
+        
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- TopBar End -->
+
+    <section id="cart">
+      <h1>Checkout</h1>
+      <div class="cart-container">
+        <div class="left-side">
+          <p>Total Items: <span id="number-of-item"></span></p>
+          <div class="cart-items" id="cart-item-container"></div>
+        </div>
+        <div class="right-side">
+          <div class="total-amount">
+            <h2>Total Amount</h2>
+            <p>Total Amount: Rs <span id="total-amount"></span></p>
+            <a href="#">
+              <button id="place-order">Place Order</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <ul class="links">
+        <li><h3>Links</h3></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">My Cart</a></li>
+      </ul>
+      <ul class="Social-Media">
+        <li><h3>Fallow-us</h3></li>
+        <li><a>FaceBook</a></li>
+        <li><a>Whatsapp</a></li>
+        <li><a>instagram</a></li>
+       </ul>
+      
+      <ul class="address">
+        <li><h3>Address</h3></li>
+        <li>Building 101</li>
+        <li>Central Avenue</li>
+        <li>LA - 902722</li>
+        <li>United States</li>
+      </ul>
+    </footer>
+
+   
+    <script src="./index.js"></script>
+    <script src="./checkout.js"></script>
+  </body>
+</html>
